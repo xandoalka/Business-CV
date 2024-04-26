@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 const Hero = () => {
     return (
         <main className="h-screen relative">
-            <div className="bg-[#e6dace] w-2/5 h-full -z-20 hidden"></div>
+            <div className="bg-[#e6dace] w-2/5 h-full -z-20"></div>
             <div className="absolute w-[62.5%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 flex">
                 <div className="bg-[#f4ece6] w-2/5 flex flex-col justify-between shadow-[-12px_12px_25px_0_rgba(138,131,124,0.23)]">
                     <div className="flex flex-col items-center gap-8 py-12">
