@@ -28,7 +28,7 @@ const Hero = () => {
                     <h3 className="text-2xl font-semibold font-montserrat">Here's who I am & what I do</h3>
                     <span className="flex gap-4 font-medium uppercase text-sm mt-4 font-montserrat">
                         <Link to={"/resume"} className="w-32 text-center py-2 border border-[#0050ff] bg-[#0050ff] rounded-3xl text-white transition-all duration-200 ease-linear hover:bg-white hover:text-[#0050ff]" href="#">Resume</Link>
-                        <Link to={"/project"} className="w-32 text-center py-2 border border-black rounded-3xl transition-all duration-200 ease-linear hover:bg-[#0050ff] hover:border-[#0050ff] hover:text-white" href="#">Projects</Link>
+                        <Link to={"/projects"} className="w-32 text-center py-2 border border-black rounded-3xl transition-all duration-200 ease-linear hover:bg-[#0050ff] hover:border-[#0050ff] hover:text-white" href="#">Projects</Link>
                     </span>
                     <p className="max-w-96 mt-4 tracking-wide leading-snug font-montserrat">
                         I'm Xanzu Athando Alvinan Dika, I'm a junior frontend developer known for my adept coding skills and innovative approach. With a natural talent for swiftly crafting clean and functional code, I'm a rising star in the world of web development.</p>

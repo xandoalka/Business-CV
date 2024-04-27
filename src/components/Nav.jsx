@@ -11,7 +11,7 @@ const Nav = () => {
             <ul className="flex gap-5 uppercase text-sm tracking-wide">
                 <li><Link to={"/"} className="font-montserrat transition-all duration-200 ease-linear hover:text-[#0050ff]" href="#">About Me</Link></li>
                 <li><Link to={"/resume"} className="font-montserrat transition-all duration-200 ease-linear hover:text-[#0050ff]" href="#">Resume</Link></li>
-                <li><Link to={"/project"} className="font-montserrat transition-all duration-200 ease-linear hover:text-[#0050ff]" href="#">Projects</Link></li>
+                <li><Link to={"/projects"} className="font-montserrat transition-all duration-200 ease-linear hover:text-[#0050ff]" href="#">Projects</Link></li>
             </ul>
         </div>
     </nav>
