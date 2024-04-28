@@ -13,7 +13,7 @@ const ProjectCard = ({ projectTitle, roleTitle, projectDescription, projectImg})
                 </div>
 
             </div>
-            <div className="w-[42.5%] h-[24rem]">
+            <div className="w-[42.5%] h-[20rem]">
                 <img className="w-full h-full object-cover" src={ projectImg } alt="" />
             </div>
         </div>
