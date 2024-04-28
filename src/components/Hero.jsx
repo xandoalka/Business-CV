@@ -1,5 +1,5 @@
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa"
-import profile from "../assets/images/profile.jpg"
+import profile from "../assets/images/profile.png"
 import { Link } from "react-router-dom"
 
 const Hero = () => {

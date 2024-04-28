@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import ResumeCard from '../components/ResumeCard'
 import Footer from '../components/Footer'
+import ProfesionalCard from '../components/ProfesionalCard'
 
 const Resume = () => {
   return (
@@ -40,39 +41,8 @@ const Resume = () => {
             description="
             SMP Negeri 1 Rawajitu Selatan adalah sekolah men engah pertama di Rawajitu Selatan, Indonesia, menawarkan pendidikan berkualitas dengan fasilitas modern dan lingkungan belajar yang kondusif. Menekankan pada pengembangan akademik dan karakter siswa."
           ></ResumeCard>
-
-          <div className='w-full bg-white py-20 px-12 mt-8 shadow-[-12px_12px_25px_0_rgba(138,131,124,0.23)]'>
-            <div>
-              <h2 className='text-2xl font-bold'>Professional skillset</h2>
-              <ul className='mt-8 capitalize flex flex-wrap gap-x-16 gap-y-7 text-sm font-light font-montserrat'>
-                <li className='flex items-center w-52'>
-                  <span className="h-3 w-3 bg-[#0050ff]"></span>
-                  <p className='ml-2'>problem solving</p>
-                </li>
-                <li className='flex items-center w-52'>
-                  <span className="h-3 w-3 bg-[#0050ff]"></span>
-                  <p className='ml-2'>Entrepreneurial Mindset</p>
-                </li>
-                <li className='flex items-center w-52'>
-                  <span className="h-3 w-3 bg-[#0050ff]"></span>
-                  <p className='ml-2'>Teamwork & Collaboration</p>
-                </li>
-              </ul>
-            </div>
-            <div className='mt-20'>
-              <h2 className='text-2xl font-bold'>Languages</h2>
-              <ul className='mt-8 flex flex-wrap gap-x-16 gap-y-7 text-sm font-light font-montserrat'>
-                <li className='flex items-center w-52'>
-                  <span className="h-3 w-3 bg-[#0050ff]"></span>
-                  <p className='ml-2'>Indonesia (native)</p>
-                </li>
-                <li className='flex items-center w-52'>
-                  <span className="h-3 w-3 bg-[#0050ff]"></span>
-                  <p className='ml-2'>English (less fluent)</p>
-                </li>
-              </ul>
-            </div>
-          </div>
+          
+          <ProfesionalCard></ProfesionalCard>
 
         </section>
       </div>
