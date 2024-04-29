@@ -10,7 +10,7 @@ const Projects = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 1.2 }}
-      className='bg-[#e6dace] min-h-screen mt-28'
+      className='bg-[#e6dace] min-h-screen mt-24 mt-28'
     >
       <div className='flex flex-col items-center py-20 w-1/2 mx-auto'>
 
