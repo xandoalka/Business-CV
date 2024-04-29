@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 const Hero = () => {
     return (
-        <main className="lg:mt-28 mt-24 min-h-screen relative">
+        <main className="lg:mt-32 mt-24 min-h-screen relative">
             <div className="lg:bg-[#e6dace] bg-white lg:absolute static w-2/5 lg:h-full h-48 -z-10"></div>
             <div className="lg:absolute lg:w-[62.5%] lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 z-0 flex flex-col lg:flex-row">
                 <div className="bg-[#f4ece6] lg:w-2/5 w-11/12 absolute -top-3 left-6 lg:ml-0 lg:static flex flex-col justify-between shadow-[-12px_12px_17px_0_rgba(138,131,124,0.23)]">
@@ -18,7 +18,7 @@ const Hero = () => {
                             <Link to={"/projects"} className="w-36 text-center py-1.5 border border-black rounded-3xl transition-all duration-200 ease-linear hover:bg-[#0050ff] hover:border-[#0050ff] hover:text-white" href="#">Projects</Link>
                         </span>
                     </div>
-                    <div className="bg-white w-full py-4 mb-3">
+                    <div className="bg-white w-full py-4 mb-3 lg:mb-0">
                         <span className="flex gap-6 justify-center">
                             <a className="text-xl" href="https://www.facebook.com/xandoalka" target="_blank"><FaFacebookF /></a>
                             <a className="text-xl" href="https://twitter.com/xandoalka" target="_blank"><FaTwitter /></a>
@@ -27,10 +27,10 @@ const Hero = () => {
                         </span>
                     </div>
                 </div>
-                <div className="lg:w-3/5 w-full pt-[22rem] lg:pt-12 pl-10 pr-4 pb-10 lg:pr-0 lg:pb-0 lg:pl-12 flex flex-col gap-8 bg-[#e6dace] lg:bg-white">
+                <div className="lg:w-3/5 w-full pt-[22rem] lg:pt-12 pl-10 pr-4 pb-10 lg:pr-0 lg:pb-0 lg:pl-12 flex flex-col gap-6 bg-[#e6dace] lg:bg-white">
                     <h1 className="lg:text-8xl text-5xl font-bold">Hello</h1>
                     <h3 className="text-xl font-semibold font-montserrat">Here's who I am & what I do</h3>
-                    <span className="hidden lg:flex gap-4 font-medium uppercase text-sm mt-4 font-montserrat">
+                    <span className="hidden lg:flex gap-2 font-medium uppercase text-sm mt-4 font-montserrat">
                         <Link to={"/resume"} className="w-32 text-center py-2 border border-[#0050ff] bg-[#0050ff] rounded-3xl text-white transition-all duration-200 ease-linear hover:bg-white hover:text-[#0050ff]" href="#">Resume</Link>
                         <Link to={"/projects"} className="w-32 text-center py-2 border border-black rounded-3xl transition-all duration-200 ease-linear hover:bg-[#0050ff] hover:border-[#0050ff] hover:text-white" href="#">Projects</Link>
                     </span>
