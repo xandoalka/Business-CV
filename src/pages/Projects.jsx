@@ -27,6 +27,7 @@ const Projects = () => {
             roleTitle="Frontend Developer"
             projectDescription="Personal portfolio website designed by Rafee Fajri and created with care"
             projectImg={foto1}
+            projectLink="https://xanzu-portofolio.vercel.app/"
           ></ProjectCard>
         </section>
       </div>
