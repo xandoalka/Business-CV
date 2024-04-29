@@ -2,10 +2,10 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/f
 
 const Footer = () => {
     return (
-        <footer className="h-28 flex bg-white">
-            <div className="flex items-center justify-between w-11/12 mx-auto text-sm">
-                <p>© 2024 Xando Alka. All rights reserved.</p>
-                <div className="flex items-center gap-8 text-center">
+        <footer className="lg:h-28 py-8 flex bg-white">
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-0 items-center justify-between w-10/12 lg:w-11/12 mx-auto lg:text-sm">
+                <p className="order-2 lg:order-1">© 2024 Xando Alka. All rights reserved.</p>
+                <div className="order-1 lg:order-2 flex flex-wrap items-center gap-8 lg:text-center">
                     <div className="flex flex-col gap-2">
                         <p className="font-semibold">Call</p>
                         <a href="tel:+6281368449213">0813-6844-9213</a>
@@ -17,10 +17,10 @@ const Footer = () => {
                     <div className="flex flex-col gap-2">
                         <p className="font-semibold">Follow</p>
                         <span className="flex gap-4">
-                            <a href="#"><FaFacebookF /></a>
-                            <a href="#"><FaTwitter /></a>
-                            <a href="#"><FaLinkedinIn /></a>
-                            <a href="#"><FaInstagram /></a>
+                            <a className="text-2xl lg:text-base" href="#"><FaFacebookF /></a>
+                            <a className="text-2xl lg:text-base" href="#"><FaLinkedinIn /></a>
+                            <a className="text-2xl lg:text-base" href="#"><FaTwitter /></a>
+                            <a className="text-2xl lg:text-base" href="#"><FaInstagram /></a>
                         </span>
                     </div>
                 </div>
