@@ -17,10 +17,10 @@ const Footer = () => {
                     <div className="flex flex-col gap-2">
                         <p className="font-semibold">Follow</p>
                         <span className="flex gap-4">
-                            <a className="text-2xl lg:text-base" href="#"><FaFacebookF /></a>
-                            <a className="text-2xl lg:text-base" href="#"><FaLinkedinIn /></a>
-                            <a className="text-2xl lg:text-base" href="#"><FaTwitter /></a>
-                            <a className="text-2xl lg:text-base" href="#"><FaInstagram /></a>
+                            <a className="text-2xl lg:text-base" href="https://www.facebook.com/xandoalka"><FaFacebookF /></a>
+                            <a className="text-2xl lg:text-base" href="https://twitter.com/xandoalka"><FaTwitter /></a>
+                            <a className="text-2xl lg:text-base" href="https://www.linkedin.com/in/xandoalka"><FaLinkedinIn /></a>
+                            <a className="text-2xl lg:text-base" href="https://www.instagram.com/xandoalka"><FaInstagram /></a>
                         </span>
                     </div>
                 </div>
