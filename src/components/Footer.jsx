@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="lg:h-28 py-8 flex bg-white">
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-0 items-center justify-between w-10/12 lg:w-11/12 mx-auto lg:text-sm">
                 <p className="order-2 lg:order-1">© 2024 Xando Alka. All rights reserved.</p>
-                <div className="order-1 lg:order-2 flex flex-wrap items-center gap-8 lg:text-center">
+                <div className="order-1 lg:order-2 flex flex-wrap items-center gap-6 lg:gap-8 lg:text-center">
                     <div className="flex flex-col gap-2">
                         <p className="font-semibold">Call</p>
                         <a href="tel:+6281368449213">0813-6844-9213</a>
@@ -14,7 +14,7 @@ const Footer = () => {
                         <p className="font-semibold">Write</p>
                         <a href="mailto:xandoalka@gmail.com">xandoalka@gmail.com</a>
                     </div>
-                    <div className="flex flex-col gap-2">
+                    <div className="flex flex-col gap-4 lg:gap-2">
                         <p className="font-semibold">Follow</p>
                         <span className="flex gap-4">
                             <a className="text-2xl lg:text-base" href="https://www.facebook.com/xandoalka" target="_blank"><FaFacebookF /></a>

@@ -13,7 +13,7 @@ const Nav = () => {
     setIsChecked(false);
   }, [location])
   return (
-    <nav className="lg:h-32 flex items-center fixed top-0 w-full bg-white z-10">
+    <nav className="lg:h-28 flex items-center fixed top-0 w-full bg-white z-10">
       <div className="lg:w-11/12 py-6 px-5 lg:py-0 lg:px-0 w-full lg:m-auto flex justify-between">
         <span className="flex items-center flex-wrap max-w-xs lg:max-w-none">
           <span className="h-4 w-4  bg-[#0050ff]"></span>

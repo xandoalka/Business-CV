@@ -10,7 +10,7 @@ const Resume = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 1.2 }}
-      className='bg-[#e6dace] min-h-screen mt-24 lg:mt-32'
+      className='bg-[#e6dace] min-h-screen mt-24 lg:mt-28'
     >
 
       <div className='flex flex-col items-center py-20 w-[48%] mx-auto'>
