@@ -13,14 +13,14 @@ const Resume = () => {
       className='bg-[#e6dace] min-h-screen mt-24 lg:mt-28'
     >
 
-      <div className='flex flex-col items-center py-20 w-[48%] mx-auto'>
+      <div className='flex flex-col items-center py-20 w-11/12 lg:w-[48%] mx-auto'>
 
         <span className='flex items-center'>
-          <span className="h-4 w-4 bg-[#0050ff]"></span>
+          <span className="h-5 w-5 lg:h-4 lg:w-4 bg-[#0050ff]"></span>
           <h1 className='ml-2 text-4xl font-bold'>Resume</h1>
         </span>
 
-        <section className='mt-20 w-full flex flex-col gap-14'>
+        <section className='mt-20 w-full flex flex-col gap-10 lg:gap-14'>
           <div className='flex justify-between'>
             <h2 className='text-2xl font-bold'>Education</h2>
             <a className="w-40 text-center uppercase text-sm font-semibold font-montserrat py-2 border border-[#0050ff] bg-[#0050ff] rounded-3xl text-white transition-all duration-200 ease-linear hover:bg-white hover:text-[#0050ff]" href="#">Download CV</a>
