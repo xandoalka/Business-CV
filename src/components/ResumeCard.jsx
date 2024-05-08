@@ -8,7 +8,7 @@ const ResumeCard = ({ years, schoolNameOrJobPosition, majorOrCompanyName, locati
           <h3 className="text-sm">{majorOrCompanyName}</h3>
           <h3 className="text-sm mt-4">{location}</h3>
         </div>
-        <div className="lg:w-1/2 leading-6 text-sm mt-4">
+        <div className="lg:w-1/2 leading-6 text-sm">
           <p>
             {description}
           </p>
